@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>烟云渺渺</title>
+  
+  <subtitle>我的Hexo博客</subtitle>
+  <link href="https://xifanu.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://xifanu.github.io/"/>
+  <updated>2019-12-12T06:22:44.000Z</updated>
+  <id>https://xifanu.github.io/</id>
+  
+  <author>
+    <name>XiFanU</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>JAVA利用JNative调用DLL、ocx动态链接库</title>
+    <link href="https://xifanu.github.io/2018/02/01/Java-JNative/"/>
+    <id>https://xifanu.github.io/2018/02/01/Java-JNative/</id>
+    <published>2018-02-01T13:03:39.000Z</published>
+    <updated>2019-12-12T06:22:44.000Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;1-环境&quot;&gt;&lt;a href=&quot;#1-环境&quot; class=&quot;headerlink&quot; title=&quot;1.环境&quot;&gt;&lt;/a&gt;1.环境&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;OS：Windows 10 1709 x64&lt;br&gt;IDE：eclipse x86&lt;br&gt;Jdk：jdk 6 x86&lt;/p&gt;
+&lt;/blockquote&gt;</summary>
+    
+    
+    
+    
+    <category term="java" scheme="https://xifanu.github.io/tags/java/"/>
+    
+    <category term="JNative" scheme="https://xifanu.github.io/tags/JNative/"/>
+    
+    <category term="dll" scheme="https://xifanu.github.io/tags/dll/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>IntelliJ IDEA快捷键</title>
+    <link href="https://xifanu.github.io/2018/01/30/IntelliJ-IDEA-Combined/"/>
+    <id>https://xifanu.github.io/2018/01/30/IntelliJ-IDEA-Combined/</id>
+    <published>2018-01-30T09:44:27.000Z</published>
+    <updated>2018-03-16T10:38:57.000Z</updated>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;Ctrl + Alt + h：显示调用当前方法的所有位置,被调用&lt;/p&gt;
+&lt;p&gt;Ctrl + Alt + v：自动生成返回值&lt;/p&gt;
+&lt;p&gt;Shift + Shift  ( Search Everywhere )：查找类  &lt;/p&gt;
+&lt;p&gt;Ctrl + Shift + Alt + N ：查找类&lt;/p&gt;
+&lt;/blockquote&gt;</summary>
+    
+    
+    
+    
+    <category term="idea" scheme="https://xifanu.github.io/tags/idea/"/>
+    
+    <category term="快捷键" scheme="https://xifanu.github.io/tags/%E5%BF%AB%E6%8D%B7%E9%94%AE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>eclipse安装JD-gui反编译插件</title>
+    <link href="https://xifanu.github.io/2018/01/08/eclipse-install-JDGUI/"/>
+    <id>https://xifanu.github.io/2018/01/08/eclipse-install-JDGUI/</id>
+    <published>2018-01-08T07:02:32.000Z</published>
+    <updated>2018-03-16T10:37:56.000Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;1-环境&quot;&gt;&lt;a href=&quot;#1-环境&quot; class=&quot;headerlink&quot; title=&quot;1.环境&quot;&gt;&lt;/a&gt;1.环境&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;OS：Windows 10 1709 x64&lt;br&gt;IDE：eclipse x86&lt;br&gt;Jdk：jdk 6 x86&lt;/p&gt;
+&lt;/blockquote&gt;</summary>
+    
+    
+    
+    
+    <category term="eclipse" scheme="https://xifanu.github.io/tags/eclipse/"/>
+    
+    <category term="jd-gui" scheme="https://xifanu.github.io/tags/jd-gui/"/>
+    
+    <category term="反编译" scheme="https://xifanu.github.io/tags/%E5%8F%8D%E7%BC%96%E8%AF%91/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>java.net.SocketException:Connection reset原因</title>
+    <link href="https://xifanu.github.io/2018/01/02/SocketException/"/>
+    <id>https://xifanu.github.io/2018/01/02/SocketException/</id>
+    <published>2018-01-02T06:50:09.000Z</published>
+    <updated>2020-12-30T09:53:40.312Z</updated>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;1，如果一端的Socket被关闭（或主动关闭，或因为异常退出而 引起的关闭），另一端仍发送数据，发送的第一个数据包引发该异常(Connect reset by peer);&lt;/p&gt;
+&lt;p&gt;2，一端退出，但退出时并未关闭该连接，另一端如果在从连接中读数据则抛出该异常（Connection reset）&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;　　简单的说就是在连接断开后的读和写操作引起的。&lt;/p&gt;
+&lt;h4 id=&quot;顺便复习一下TCP的三次握手&quot;&gt;&lt;a href=&quot;#顺便复习一下TCP的三次握手&quot; class=&quot;headerlink&quot; title=&quot;顺便复习一下TCP的三次握手&quot;&gt;&lt;/a&gt;顺便复习一下TCP的三次握手&lt;/h4&gt;</summary>
+    
+    
+    
+    
+    <category term="SocketException" scheme="https://xifanu.github.io/tags/SocketException/"/>
+    
+    <category term="Connection reset" scheme="https://xifanu.github.io/tags/Connection-reset/"/>
+    
+  </entry>
+  
+</feed>
